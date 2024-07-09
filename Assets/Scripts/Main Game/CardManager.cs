@@ -228,7 +228,7 @@ public class CardManager : MonoBehaviour
     public void ReturnToHome() //Loads the Dashboard Screen.
     {
         Debug.Log("Loading Dashboard...");
-        SceneManager.LoadScene("LoginScreen");
+        SceneManager.LoadScene("Dashboard");
     }
 
     public void OnBeginDrag(PointerEventData eventData)

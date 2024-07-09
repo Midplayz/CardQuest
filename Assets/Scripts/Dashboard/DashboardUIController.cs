@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DashboardUIController : MonoBehaviour
@@ -44,7 +45,6 @@ public class DashboardUIController : MonoBehaviour
             StartCoroutine(UpdateWatermarkText());
         }
     }
-
     public void ToggleScreen(string screenName) //Enabled or disabled a screen based on the name
     {
         if (screens.ContainsKey(screenName))

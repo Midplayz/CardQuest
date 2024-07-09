@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: WatermarkTextData
   m_EditorClassIdentifier: 
   texts:
-  - Assessment
-  - Test
-  - Game
-  - Made
-  - By
-  - Srivishnu
-  - Srinivasan
-  - '!'
+  - Card
+  - Quest
+  - Can
+  - You
+  - Reach
+  - Face
+  - Value
+  - 26
+  - '?'
+  - :)
